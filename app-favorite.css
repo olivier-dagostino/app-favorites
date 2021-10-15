@@ -6,6 +6,9 @@ header {
     display: flex;
     justify-content: space-between;
 }
+.titre {
+    text-align: center;
+}
 .header_gauche {
     display: flex;
     align-items: baseline;
@@ -107,6 +110,7 @@ nav {
 
 .logo_deezer_box {
     background-color: black;
+    align-items: flex-start;
 
 }
 
