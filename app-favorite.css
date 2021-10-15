@@ -12,11 +12,6 @@ header{
     height: 240px; width: 240px;
 }
 
-
-
-
-
-
 .morph div img {
     width: 200px;
     height: 150px;
@@ -32,11 +27,6 @@ header{
     -webkit-transform: rotate(360deg); /* rotation de l'image */
     transform: rotate(360deg);
   }
-
-
-
-
-
 
 
 .header_centre {
