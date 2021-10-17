@@ -88,15 +88,29 @@ nav {
             background-position-x: 390px;
     }}
 /*Section_1*/
-
+.section_0 {
+    background-color: black;
+    margin: 2cm;
+    display: flex;
+    justify-content: center;
+    border-radius: 10% 30% ;
+}
+#screen_capture {
+    height: 484px;
+    width: 270px;
+}
 .section_1 {
     padding: 2cm;
     display: flex;
     justify-content: space-between
 }
+.head_section1 {
+    background-color: black;
+}
+
 .deezer_box {
     width: 25%;
-    border-radius: 10% 30% 50% 70%;
+    border-radius: 10% 30% ;
     background-color: black;
     display: flex;
     flex-direction: column;
@@ -136,22 +150,17 @@ nav {
     display: flex;
     justify-content: space-between;
 }
+
 /*footer*/
+
+
 footer {
     border-radius: 30px;
     background-color: yellow;
     display: flex;
-    flex-direction: column;
+    justify-content: space-evenly;
+}
+#logo_linkedin {
+    height: 150px;
 }
 
-.footer_1 {
-    padding: 1%;
-    display: flex;
-    justify-content: space-between;
-
-}.footer_2 {
-    padding: 1cm;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
